@@ -75,7 +75,9 @@ header {
 }
 
 #video-asie {
-    min-width: 100%;
+    width: 100%;
+    height: unset;
+    object-fit: cover;
 }
 
 
