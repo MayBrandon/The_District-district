@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #ff0052;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+a {
+    color: white;
+    background-color: transparent;
+}
+
+header {
+    position: relative;
+    background-image: url(/assets/img/branding/wave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 1px 20px 5px black;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-logo {
+    background: transparent;
+}
+
+.logo {
+    width: 120px;
+    background: transparent;
+}
+
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    background: transparent;
+}
+
+.nav-a {
+    margin: 20px;
+    text-decoration: none;
+    background: white;
+    font-size: 30px;
+    padding: 15px;
+    /* background: -webkit-linear-gradient(0deg, #e90000 0%, #ff7700 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.76);
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+
+}
+
+
+
+/* DIV = BACKGROUND IMG */
+.div-banniere {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(/assets/img/branding/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+
+}
+
+#searchBar {
+    position: absolute;
+    top: 45%;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    background-color: rgba(255, 254, 254, 0.661);
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    width: 514px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #000000;
+    font-weight: 700;
+}
+
+
+#searchBar::placeholder {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+/* categorie de la page d'accueil */
+.div-body-categorie {
+    margin-top: 15px;
+}
+
+.title-categorie {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-decoration: 3px underline;
+}
+
+/* TEST TEST TEST TEST TEST TEST TEST */
+.div-parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 85px;
+}
+
+.div-enfant1 {
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    filter: blur(2px);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.div-enfant2 {
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    filter: blur(2px);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.div-enfant3 {
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    filter: blur(2px);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.div-enfant4 {
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    filter: blur(2px);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.div-enfant5 {
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    filter: blur(2px);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.div-enfant6 {
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    filter: blur(2px);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.div-enfant1:hover,
+.div-enfant2:hover,
+.div-enfant3:hover,
+.div-enfant4:hover,
+.div-enfant5:hover,
+.div-enfant6:hover {
+    filter: blur(0);
+    content: "Sandwich";
+    color: white;
+    text-align: center;
+}
+
+
+
+.div-body-plat {
+    border: 2px dashed whitesmoke;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(240, 132, 0, 0.809);
+}
+
+
+.title-plat {
+    text-align: center;
+    color: white;
+    text-decoration: 3px underline;
+    font-size: 45px;
+    background-color: transparent;
+}
+
+
+.div-parent-plat {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+
+
+.div-plat1 {
+    background-image: url(/assets/img/plats/cheesburger.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 275px;
+    border-radius: 10px;
+    border: 2px dashed whitesmoke;
+    cursor: pointer;
+    filter: blur(2px);
+    transition: ease-in-out .2s;
+
+}
+
+.div-plat2 {
+    background-image: url(/assets/img/plats/pizza-margherita.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 275px;
+    border-radius: 10px;
+    border: 2px dashed whitesmoke;
+    cursor: pointer;
+    filter: blur(2px);
+    transition: ease-in-out .2s;
+
+}
+
+.div-plat3 {
+    background-image: url(/assets/img/plats/spaghetti-legumes.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 275px;
+    border-radius: 10px;
+    border: 2px dashed whitesmoke;
+    cursor: pointer;
+    filter: blur(2px);
+    transition: ease-in-out .2s;
+}
+
+.div-plat1:hover,
+.div-plat2:hover,
+.div-plat3:hover {
+    filter: blur(0);
+}
+
+
+.div-plat1:hover,
+.div-plat2:hover,
+.div-plat3:hover {
+    filter: blur(0);
+    color: white;
+}
+
+.social-media {
+    position: relative;
+    margin-top: 25px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-logo {
+    width: 50px;
+    margin: 25px;
+}
+
+.social-logo:hover {
+    transform: scale(1.1);
+}
+
+/* PAGE CONTACT */
+
+.form-title {
+    text-align: center;
+    color: white;
+    text-decoration: 3px underline;
+    font-size: 45px;
+}
+
+.div-body-contact {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* FORMULAIRE */
+
+
+#monFormulaire {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 14px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* MEDIA QUERY */
+
+
+@media (max-width: 817px) {
+
+    .div-banniere {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-image: url(/assets/img/branding/bg2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 100%;
+    }
+
+    .div-banniere>input {
+        visibility: hidden;
+    }
+
+    .div-body-categorie {
+        margin-top: 15px;
+    }
+
+    .div-body-plat {
+        border: 2px dashed whitesmoke;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: rgba(240, 132, 0, 0.809);
+    }
+
+    .div-parent-plat {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .div-plat1 {
+        background-image: url(/assets/img/plats/cheesburger.png);
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 275px;
+        border-radius: 10px;
+        border: 2px dashed whitesmoke;
+        cursor: pointer;
+        filter: blur(2px);
+        transition: ease-in-out .2s;
+
+    }
+
+    .div-plat2 {
+        background-image: url(/assets/img/plats/pizza-margherita.png);
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 275px;
+        border-radius: 10px;
+        border: 2px dashed whitesmoke;
+        /* cursor: pointer;
+        filter: blur(2px);
+        transition: ease-in-out .2s; */
+
+    }
+
+    .div-plat3 {
+        background-image: url(/assets/img/plats/spaghetti-legumes.png);
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 275px;
+        border-radius: 10px;
+        border: 2px dashed whitesmoke;
+        cursor: pointer;
+        filter: blur(2px);
+        transition: ease-in-out .2s;
+    }
+
+}
