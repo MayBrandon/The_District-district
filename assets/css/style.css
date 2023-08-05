@@ -3,10 +3,15 @@
 
 * {
     box-sizing: border-box;
-    background-color: #ff0052;
+    /* background-color: #ff0052; */
     margin: 0;
     font-family: 'Amatic SC', cursive;
 }
+
+body {
+    background-color: #ff0052;
+}
+
 
 a {
     color: white;
@@ -233,57 +238,22 @@ header {
 
 
 
-.div-plat1 {
-    background-image: url(/assets/img/plats/cheesburger.png);
+.img-plat-size {
     background-repeat: no-repeat;
     height: 150px;
     width: 275px;
     border-radius: 10px;
-    /* border: 2px dashed whitesmoke; */
     cursor: pointer;
-    /* filter: blur(2px); */
+    filter: blur(2px);  
     transition: ease-in-out .2s;
 
 }
 
-.div-plat2 {
-    background-image: url(/assets/img/plats/pizza-margherita.png);
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 275px;
-    border-radius: 10px;
-    /* border: 2px dashed whitesmoke; */
-    cursor: pointer;
-    /* filter: blur(2px); */
-    transition: ease-in-out .2s;
-
-}
-
-.div-plat3 {
-    background-image: url(/assets/img/plats/spaghetti-legumes.png);
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 275px;
-    border-radius: 10px;
-    /* border: 2px dashed whitesmoke; */
-    cursor: pointer;
-    /* filter: blur(2px); */
-    transition: ease-in-out .2s;
-}
-
-.div-plat1:hover,
-.div-plat2:hover,
-.div-plat3:hover {
+.img-plat-size:hover {
     filter: blur(0);
 }
 
 
-.div-plat1:hover,
-.div-plat2:hover,
-.div-plat3:hover {
-    filter: blur(0);
-    color: white;
-}
 
 .social-media {
     position: relative;
@@ -318,69 +288,6 @@ header {
     justify-content: center;
 }
 
-/* FORMULAIRE */
-
-
-#monFormulaire {
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 14px rgba(0, 0, 0, 0.1);
-}
-
-.form-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.form-group {
-    flex: 1;
-    margin-right: 10px;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: white;
-    font-size: 25px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-    width: 500px;
-    height: 50px;
-    padding: 10px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-}
-
-textarea {
-    resize: vertical;
-    width: 100%;
-    height: 250px;
-    padding: 10px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    color: white;
-    font-size: 25px;
-    font-weight: 700;
-}
-
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
 
 
 /* MEDIA QUERY */
@@ -426,15 +333,20 @@ input[type="submit"]:hover {
         background-color: transparent;
     }
 
+    .img-plat-size {
+        width: 100%;
+        height: 200px;
+    }
+    
+/* 
     .div-plat1 {
         display: flex;
-        background-image: url(/assets/img/plats/cheesburger.png);
         background-repeat: no-repeat;
         height: 150px;
         width: 275px;
         margin: 10px;
         border-radius: 10px;
-        /* border: 2px dashed whitesmoke; */
+        border: 2px dashed whitesmoke;
         cursor: pointer;
         filter: blur(2px);
         transition: ease-in-out .2s;
@@ -443,13 +355,12 @@ input[type="submit"]:hover {
 
     .div-plat2 {
         display: flex;
-        background-image: url(/assets/img/plats/pizza-margherita.png);
         background-repeat: no-repeat;
         height: 150px;
         width: 275px;
         margin: 10px;
         border-radius: 10px;
-        /* border: 2px dashed whitesmoke; */
+        border: 2px dashed whitesmoke;
         cursor: pointer;
         filter: blur(2px);
         transition: ease-in-out .2s;
@@ -458,16 +369,15 @@ input[type="submit"]:hover {
 
     .div-plat3 {
         display: flex;
-        background-image: url(/assets/img/plats/spaghetti-legumes.png);
         background-repeat: no-repeat;
         height: 150px;
         width: 275px;
         margin: 10px;
         border-radius: 10px;
-        /* border: 2px dashed whitesmoke; */
+        border: 2px dashed whitesmoke;
         cursor: pointer;
         filter: blur(2px);
         transition: ease-in-out .2s;
-    }
+    } */
 
 }
