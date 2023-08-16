@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #ff0052;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+a {
+    color: white;
+    background-color: transparent;
+}
+
+header {
+    position: relative;
+    background-image: url(/assets/img/branding/wave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 1px 20px 5px black;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-logo {
+    background: transparent;
+}
+
+.logo {
+    width: 120px;
+    background: transparent;
+}
+
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    background: transparent;
+}
+
+.nav-a {
+    margin: 20px;
+    text-decoration: none;
+    background: white;
+    font-size: 30px;
+    padding: 15px;
+    /* background: -webkit-linear-gradient(0deg, #e90000 0%, #ff7700 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.76);
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+
+.container {
+    margin-top: 15px;
+}
+/* centrer le menu au milieu de l'écran  */
+/* METTRE UNE ANIMATION DE TEXTE */
+.title-plat {
+    text-align: center;
+    font-size: 6pc;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    animation-name: color;
+    animation: color 3s  .5s infinite;
+}
+
+@keyframes color {
+    0% {
+        color: #ff0052;
+    }
+    
+    15% {
+        color: #f6ff00;
+    }
+
+    30% {
+        color: #2bff00;
+    }
+
+    45% {
+        color: #00e1ff;
+    }
+
+    60% {
+        color: #0400ff;
+    }
+
+    75% {
+        color: #ff00d4;
+    }
+
+    90% {
+        color: #ff00a2;
+    }
+
+    100% {
+        color: #ff0052;
+    }
+
+}
+
+.categorie {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.image-plat {
+    width: 400px;
+    gap: 35px;
+}
+
+.description-plat {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.ingredient {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#addProduct {
+    float: right;
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    background-color: #ff0052;
+    transition: ease-in-out .2s;
+    bottom: 0;
+}
+
+#addProduct:hover {
+    background-color: white;
+    color: #ff0052;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.social-media {
+    position: relative;
+    margin-top: 25px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-logo {
+    width: 50px;
+    margin: 25px;
+}
+
+.social-logo:hover {
+    transform: scale(1.1);
+}
+/* MEDIA QUERY */
+
+
+@media (max-width: 817px) {
+
+    .div-banniere {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-image: url(/assets/img/branding/bg2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 100%;
+    }
+
+    .div-banniere>input {
+        visibility: hidden;
+    }
+
+    .div-body-categorie {
+        margin-top: 15px;
+    }
+
+    .div-body-plat {
+        border: 2px dashed whitesmoke;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: rgba(240, 132, 0, 0.809);
+    }
+
+    .div-parent-plat {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+        align-items: center;
+        background-color: transparent;
+    }
+
+   
+  
+  
+
+}

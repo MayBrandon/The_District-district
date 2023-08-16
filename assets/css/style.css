@@ -124,6 +124,7 @@ header {
     flex-wrap: wrap;
     margin-top: 15px;
     margin-bottom: 85px;
+    gap: 25px;
 }
 
 .div-enfant1 {
@@ -132,7 +133,7 @@ header {
     height: 300px;
     width: 200px;
     margin: 10px;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -144,7 +145,7 @@ header {
     height: 300px;
     width: 200px;
     margin: 10px;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -155,7 +156,7 @@ header {
     border-radius: 10px;
     width: 200px;
     margin: 10px;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -166,7 +167,7 @@ header {
     height: 300px;
     width: 200px;
     margin: 10px;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -177,7 +178,7 @@ header {
     height: 300px;
     width: 200px;
     margin: 10px;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -188,7 +189,7 @@ header {
     height: 300px;
     width: 200px;
     margin: 10px;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -205,7 +206,12 @@ header {
     text-align: center;
 }
 
+/* NOM DES CATEGORIES */
 
+.categorie-name {
+    text-align: center;
+    /* color: white; */
+}
 
 .div-body-plat {
     border: 2px dashed whitesmoke;
@@ -215,7 +221,6 @@ header {
     background-color: rgba(240, 132, 0, 0.809);
 }
 
-
 .title-plat {
     text-align: center;
     color: white;
@@ -223,7 +228,6 @@ header {
     font-size: 45px;
     background-color: transparent;
 }
-
 
 .div-parent-plat {
     margin-top: 25px;
@@ -233,10 +237,7 @@ header {
     margin: 5px;
     border-radius: 10px;
     background-color: transparent;
-
 }
-
-
 
 .img-plat-size {
     background-repeat: no-repeat;
@@ -246,14 +247,11 @@ header {
     cursor: pointer;
     filter: blur(2px);  
     transition: ease-in-out .2s;
-
 }
 
 .img-plat-size:hover {
     filter: blur(0);
 }
-
-
 
 .social-media {
     position: relative;
@@ -288,10 +286,7 @@ header {
     justify-content: center;
 }
 
-
-
 /* MEDIA QUERY */
-
 
 @media (max-width: 817px) {
 
