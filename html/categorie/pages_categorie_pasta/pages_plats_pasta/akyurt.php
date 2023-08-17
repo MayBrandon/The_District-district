@@ -16,7 +16,7 @@
   <h1 class="title-plat">Pasta - Akyurt</h1>
     <div class="categorie">
       <div class="div-image-plat">
-        <img class="image-plat" src="/assets/img/plats/plat-pasta/pasta_akyurt.png" alt="" srcset="">
+        <img class="image-plat" src="/assets/img/plats/plats-pasta/akyurt.png" alt="" srcset="">
       </div>
       <div class="infos-plat">
         <p class="description-plat">

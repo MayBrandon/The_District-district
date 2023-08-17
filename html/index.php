@@ -69,7 +69,7 @@
 
           <!-- CATEGORIE PIZZA -->
         <div class="div-enfant4">
-          <a href="/html/categorie/categorie_pizza.html">
+          <a href="/html/categorie/pages_categorie_pizza/categorie_pizza.php">
             <img src="/assets/img/categorie/pizza_cat.png" alt="">
           </a>
           <h1 class="categorie-name">Pizza</h1>
