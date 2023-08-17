@@ -54,7 +54,7 @@
               <p class="categorie-text">
                 La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
-                riz et le mode de cuisson, elles ont chacune leur spécificité locale.
+                riz et le mode de cuisson, elles ont chacune leur spécificité locale. 
               </p>
               <button id="addProduct">ajouter au panier</button>
               <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
