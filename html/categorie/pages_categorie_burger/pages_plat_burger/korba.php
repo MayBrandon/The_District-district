@@ -13,7 +13,7 @@
 
 <!-- PAGE PRESENTATION DU PLAT // MENU  -->
 <div class="container">
-  <h1 class="title-plat">Burger _ Korba</h1>
+  <h1 class="title-plat">Burger - Korba</h1>
     <div class="categorie">
       <div class="div-image-plat">
         <img class="image-plat" src="/assets/img/plats/plat-burger/burger_korba.png" alt="" srcset="">

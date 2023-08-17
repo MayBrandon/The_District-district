@@ -68,8 +68,20 @@
       <article class="categorie">
         <img src="/assets/img/categorie/pizza_cat.png" alt="">
         <div class="test1">
+        <a class="link-categ" href="/html/categorie/pages_categorie_pizza/categorie_pizza.php">
           <h1 class="menu-categorie-title">Pizza : </h1>
+        </a>
           <p class="categorie-text">Découvrez l'incroyable pizza, le joyau culinaire qui évoque instantanément des images de l'Italie ensoleillée et qui séduit les amateurs de cuisine du monde entier. Cette œuvre d'art culinaire commence par une base de pâte fraîche et moelleuse, préparée avec amour et pétrie à la perfection.</p>
+        </div>
+      </article>
+      
+      <article class="categorie">
+        <img src="/assets/img/categorie/pasta_cat.png" alt="">
+        <div class="test1">
+        <a class="link-categ" href="/html/categorie/pages_categorie_pasta/categorie_pates.php">
+          <h1 class="menu-categorie-title">Pasta : </h1>
+        </a>
+          <p class="categorie-text">Tout commence par des pâtes fraîches, élaborées à partir des meilleurs ingrédients et pétries avec amour. Nous proposons une sélection variée de formes de pâtes, allant des spaghettis longs et fins aux penne rigate en passant par les farfalle colorées, afin que vous puissiez choisir votre préférée.</p>
         </div>
       </article>
 
@@ -81,13 +93,6 @@
         </div>
       </article>
 
-      <article class="categorie">
-        <img src="/assets/img/categorie/pasta_cat.png" alt="">
-        <div class="test1">
-          <h1 class="menu-categorie-title">Pasta : </h1>
-          <p class="categorie-text">Tout commence par des pâtes fraîches, élaborées à partir des meilleurs ingrédients et pétries avec amour. Nous proposons une sélection variée de formes de pâtes, allant des spaghettis longs et fins aux penne rigate en passant par les farfalle colorées, afin que vous puissiez choisir votre préférée.</p>
-        </div>
-      </article>
 
       <article class="categorie">
         <img src="/assets/img/categorie/sandwich_cat.png" alt="">
