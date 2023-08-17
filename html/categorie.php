@@ -44,7 +44,7 @@
         <img src="/assets/img/categorie/asian_food_cat.png" alt="">
         <div class="test1">
           
-          <a class="asia-categ" href="/html/categorie/pages_categories_asie/categorie_asia.php">
+          <a class="link-categ" href="/html/categorie/pages_categories_asie/categorie_asia.php">
             <h1 class="menu-categorie-title">Cuisine Asiatique : </h1>
           </a>
           <p class="categorie-text">
@@ -58,7 +58,9 @@
       <article class="categorie">
         <img src="/assets/img/categorie/burger_cat.png" alt="">
         <div class="test1">
+        <a class="link-categ" href="/html/categorie/pages_categorie_burger/categorie_burger.php">
           <h1 class="menu-categorie-title">Hamburger : </h1>
+        </a>
           <p class="categorie-text">Le menu hamburger est un classique de la restauration rapide qui séduit les gourmands du monde entier. Cette savoureuse création culinaire est constituée d'un délicieux steak de bœuf grillé ou d'une alternative végétarienne pour satisfaire tous les palais, servi entre deux moelleux pains à hamburger.</p>
         </div>
       </article>
@@ -71,8 +73,8 @@
         </div>
       </article>
 
-      <article class="categorie">
-        <img src="/assets/img/categorie//salade_cat.png" alt="">
+      <article class="categorie" href="">
+        <img src="/assets/img/categorie/salade_cat.png" alt="">
         <div class="test1">
           <h1 class="menu-categorie-title">Salade : </h1>
           <p class="categorie-text">Découvrez notre salade exquise, un véritable festin pour les sens et une symphonie de fraîcheur ! Notre création culinaire allie les ingrédients les plus savoureux pour offrir une expérience gustative inoubliable.</p>

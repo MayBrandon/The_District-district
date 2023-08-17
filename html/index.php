@@ -61,7 +61,7 @@
 
           <!-- CATEGORIE PASTA -->
         <div class="div-enfant3">
-          <a href="/html/categorie/categorie_pates.html">
+          <a href="/html/categorie/pages_categorie_pasta/categorie_pates.php">
             <img src="/assets/img/categorie/pasta_cat.png" alt="">
           </a>
           <h1 class="categorie-name">Pasta</h1>

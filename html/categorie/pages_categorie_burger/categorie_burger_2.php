@@ -21,7 +21,7 @@
     
          MENU DÉROULANT POUR MOBILE -->
         <!-- <div class="div-menu-mobile" style="overflow: hidden; display: none"></div>
-      </header> --> 
+      </header> -->
 
       <?php include('../../../header_footer/header.php') ?>
 
@@ -38,7 +38,7 @@
           <article class="categorie" >
             <img src="/assets/img/plats/plat-burger/burger_boltneva.png" alt="">
             <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages-plat_burger/boltneva.php">Boltneva : </a></h1>
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/boltneva.php">Boltneva : </a></h1>
               <p class="categorie-text">
                 À <span class="text-deco">The District</span>, notre équipe de chefs talentueux prépare minutieusement chaque ingrédient avant de les enrober d'une pâte à tempura légère et croustillante. Vous serez émerveillés par la fraîcheur et la qualité des légumes de saison ainsi que des fruits de mer sélectionnés avec soin pour ce plat unique.
               </p>
@@ -50,7 +50,7 @@
           <article class="categorie">
             <img src="/assets/img/plats/plat-burger/burger_caricatte.png" alt="">
             <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages-plat_burger/caricatte.php">Caricatte : </a></h1>
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/caricatte.php">Caricatte : </a></h1>
               <p class="categorie-text">
                 La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
@@ -64,7 +64,7 @@
           <article class="categorie">
             <img src="/assets/img/plats/plat-burger/burger_husko.png" alt="">
             <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages-plat_burger/husko.php">Husko : </a></h1>
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/husko.php">Husko : </a></h1>
               <p class="categorie-text">
                 La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
@@ -78,7 +78,7 @@
           <article class="categorie">
             <img src="/assets/img/plats/plat-burger/burger_korba.png" alt="">
             <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages-plat_burger/korba.php">Korba : </a></h1>
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/korba.php">Korba : </a></h1>
               <p class="categorie-text">
                 La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
