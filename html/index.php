@@ -77,7 +77,7 @@
 
           <!-- CATEGORIE SALADE -->
         <div class="div-enfant5">
-          <a href="/html/categorie/categorie_salade.html">
+          <a href="/html/categorie/pages_categorie_salade/categorie_salade.php">
             <img src="/assets/img/categorie/salade_cat.png" alt="">
           </a>
           <h1 class="categorie-name">Salade</h1>
@@ -85,7 +85,7 @@
 
           <!-- CATEGORIE SANDWICH -->
         <div class="div-enfant6">
-          <a href="/html/categorie/categorie_sandwich.html">
+          <a href="/html/categorie/pages_categorie_sandwich/categorie_sandwich.php">
             <img src="/assets/img/categorie/sandwich_cat.png" alt="">
           </a>
           <h1 class="categorie-name">Sandwich</h1>

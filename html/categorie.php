@@ -88,7 +88,9 @@
       <article class="categorie" href="">
         <img src="/assets/img/categorie/salade_cat.png" alt="">
         <div class="test1">
+        <a class="link-categ" href="/html/categorie/pages_categorie_salade/categorie_salade.php">
           <h1 class="menu-categorie-title">Salade : </h1>
+        </a>
           <p class="categorie-text">Découvrez notre salade exquise, un véritable festin pour les sens et une symphonie de fraîcheur ! Notre création culinaire allie les ingrédients les plus savoureux pour offrir une expérience gustative inoubliable.</p>
         </div>
       </article>
@@ -97,15 +99,17 @@
       <article class="categorie">
         <img src="/assets/img/categorie/sandwich_cat.png" alt="">
         <div class="test1">
+        <a class="link-categ" href="/html/categorie/pages_categorie_sandwich/categorie_sandwich.php">
           <h1 class="menu-categorie-title">Sandwich : </h1>
+        </a>
           <p class="categorie-text">Découvrez nos délicieux sandwiches, des créations gastronomiques qui marient harmonieusement des ingrédients frais et savoureux entre deux moelleux morceaux de pain. Chaque bouchée est une explosion de saveurs, une symphonie de textures qui ravira vos papilles.</p>
         </div>
       </article>
     </div>
-    <div class="div-btn">
+    <!-- <div class="div-btn">
       <button class="btn-categorie">Précédent</button>
       <button class="btn-categorie">Suivant</button>
-    </div>
+    </div> -->
   </div>
 
   <footer class="social-media">

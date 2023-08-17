@@ -36,72 +36,64 @@
     <h1 class="categorie-title">Nos plats</h1>
 
     <div class="all-categories">
-      <article class="categorie">
-        <img src="/assets/img/categorie/asian_food_cat.png" alt="">
-        <div class="test1">
-          <h1 class="menu-categorie-title">Cuisine Asiatique : </h1>
-          <p class="categorie-text">
-            La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
-            propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
-            riz et le mode de cuisson, elles ont chacune leur spécificité locale.
-          </p>
-        </div>
-      </article>
+    <article class="categorie" >
+            <img src="/assets/img/plats/plat-burger/burger_boltneva.png" alt="">
+            <div class="div-text-categorie">
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/boltneva.php">Boltneva : </a></h1>
+              <p class="categorie-text">
+                À <span class="text-deco">The District</span>, notre équipe de chefs talentueux prépare minutieusement chaque ingrédient avant de les enrober d'une pâte à tempura légère et croustillante. Vous serez émerveillés par la fraîcheur et la qualité des légumes de saison ainsi que des fruits de mer sélectionnés avec soin pour ce plat unique.
+              </p>
+              <button id="addProduct">ajouter au panier</button>
+              <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
+            </div> 
+          </article>
 
-      <article class="categorie">
+          <article class="categorie">
+            <img src="/assets/img/plats/plat-burger/burger_caricatte.png" alt="">
+            <div class="div-text-categorie">
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/caricatte.php">Caricatte : </a></h1>
+              <p class="categorie-text">
+                La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
+                propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
+                riz et le mode de cuisson, elles ont chacune leur spécificité locale.
+              </p>
+              <button id="addProduct">ajouter au panier</button>
+              <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
+            </div>
+          </article>
 
-        <img src="/assets/img/categorie/burger_cat.png" alt="">
-        <div class="test1">
-          <h1 class="menu-categorie-title">Hamburger : </h1>
-          <p class="categorie-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias unde asperiores
-            deleniti, laudantium perspiciatis facere totam a dicta fugit corrupti dolorem eaque veniam numquam possimus
-            cupiditate laborum voluptas recusandae reprehenderit facilis perferendis ut? Cupiditate, iste?</p>
-        </div>
-      </article>
+          <article class="categorie">
+            <img src="/assets/img/plats/plat-burger/burger_husko.png" alt="">
+            <div class="div-text-categorie">
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/husko.php">Husko : </a></h1>
+              <p class="categorie-text">
+                La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
+                propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
+                riz et le mode de cuisson, elles ont chacune leur spécificité locale.
+              </p>
+              <button id="addProduct">ajouter au panier</button>
+              <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
+            </div>
+          </article>
 
-      <article class="categorie">
-        <img src="/assets/img/categorie/pizza_cat.png" alt="">
-        <div class="test1">
-          <h1 class="menu-categorie-title">Pizza : </h1>
-          <p class="categorie-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias unde asperiores
-            deleniti, laudantium perspiciatis facere totam a dicta fugit corrupti dolorem eaque veniam numquam possimus
-            cupiditate laborum voluptas recusandae reprehenderit facilis perferendis ut? Cupiditate, iste?</p>
-        </div>
-      </article>
-
-      <article class="categorie">
-        <img src="/assets/img/categorie//salade_cat.png" alt="">
-        <div class="test1">
-          <h1 class="menu-categorie-title">Salade : </h1>
-          <p class="categorie-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias unde asperiores
-            deleniti, laudantium perspiciatis facere totam a dicta fugit corrupti dolorem eaque veniam numquam possimus
-            cupiditate laborum voluptas recusandae reprehenderit facilis perferendis ut? Cupiditate, iste?</p>
-        </div>
-      </article>
-
-      <article class="categorie">
-        <img src="/assets/img/categorie/pasta_cat.png" alt="">
-        <div class="test1">
-          <h1 class="menu-categorie-title">Pasta : </h1>
-          <p class="categorie-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias unde asperiores
-            deleniti, laudantium perspiciatis facere totam a dicta fugit corrupti dolorem eaque veniam numquam possimus
-            cupiditate laborum voluptas recusandae reprehenderit facilis perferendis ut? Cupiditate, iste?</p>
-        </div>
-      </article>
-
-      <article class="categorie">
-        <img src="/assets/img/categorie/sandwich_cat.png" alt="">
-        <div class="test1">
-          <h1 class="menu-categorie-title">Sandwich : </h1>
-          <p class="categorie-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias unde asperiores
-            deleniti, laudantium perspiciatis facere totam a dicta fugit corrupti dolorem eaque veniam numquam possimus
-            cupiditate laborum voluptas recusandae reprehenderit facilis perferendis ut? Cupiditate, iste?</p>
-        </div>
-      </article>
+          <article class="categorie">
+            <img src="/assets/img/plats/plat-burger/burger_korba.png" alt="">
+            <div class="div-text-categorie">
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/korba.php">Korba : </a></h1>
+              <p class="categorie-text">
+                La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
+                propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
+                riz et le mode de cuisson, elles ont chacune leur spécificité locale.
+              </p>
+              <button id="addProduct">ajouter au panier</button>
+              <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
+            </div>
+          </article>
+      </div>
     </div>
     <div class="div-btn">
-      <button class="btn-categorie">Précédent</button>
-      <button class="btn-categorie">Suivant</button>
+      <button class="btn-categorie" h>Précédent</button>
+      <button class="btn-categorie" href="/html/plats2.php">Suivant</button>
     </div>
   </div>
 
