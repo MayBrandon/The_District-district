@@ -92,8 +92,8 @@
       </div>
     </div>
     <div class="div-btn">
-      <button class="btn-categorie" h>Précédent</button>
-      <button class="btn-categorie" href="/html/plats2.php">Suivant</button>
+      <button id="btnPrec" class="btn-categorie" >Précédent</button>
+      <button id="btnNext" class="btn-categorie" >Suivant</button>
     </div>
   </div>
 
@@ -104,6 +104,7 @@
     <div class="linkedin"><img class="social-logo" src="/assets/img/social/linkedin.png" alt=""></div>
     <div class="pinterest"><img class="social-logo" src="/assets/img/social/pinterest.png" alt=""></div>
   </footer>
+  <script src="/assets/script/script.js"></script>
 </body>
 
 </html>

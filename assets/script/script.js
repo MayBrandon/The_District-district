@@ -13,3 +13,6 @@
 
   // Écouter les changements de taille d'écran et réagir en conséquence
   window.addEventListener("resize", toggleMobileMenu);
+
+
+ 
