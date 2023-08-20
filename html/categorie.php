@@ -42,8 +42,7 @@
          
         </div>
         <img src="/assets/img/categorie/asian_food_cat.png" alt="">
-        <div class="test1">
-          
+        <div class="div-text-categorie">
           <a class="link-categ" href="/html/categorie/pages_categories_asie/categorie_asia.php">
             <h1 class="menu-categorie-title">Cuisine Asiatique : </h1>
           </a>
@@ -57,7 +56,7 @@
 
       <article class="categorie">
         <img src="/assets/img/categorie/burger_cat.png" alt="">
-        <div class="test1">
+        <div class="div-text-categorie">
         <a class="link-categ" href="/html/categorie/pages_categorie_burger/categorie_burger.php">
           <h1 class="menu-categorie-title">Hamburger : </h1>
         </a>
@@ -67,7 +66,7 @@
 
       <article class="categorie">
         <img src="/assets/img/categorie/pizza_cat.png" alt="">
-        <div class="test1">
+        <div class="div-text-categorie">
         <a class="link-categ" href="/html/categorie/pages_categorie_pizza/categorie_pizza.php">
           <h1 class="menu-categorie-title">Pizza : </h1>
         </a>
@@ -77,7 +76,7 @@
       
       <article class="categorie">
         <img src="/assets/img/categorie/pasta_cat.png" alt="">
-        <div class="test1">
+        <div class="div-text-categorie">
         <a class="link-categ" href="/html/categorie/pages_categorie_pasta/categorie_pates.php">
           <h1 class="menu-categorie-title">Pasta : </h1>
         </a>
@@ -87,7 +86,7 @@
 
       <article class="categorie" href="">
         <img src="/assets/img/categorie/salade_cat.png" alt="">
-        <div class="test1">
+        <div class="div-text-categorie">
         <a class="link-categ" href="/html/categorie/pages_categorie_salade/categorie_salade.php">
           <h1 class="menu-categorie-title">Salade : </h1>
         </a>
@@ -98,7 +97,7 @@
 
       <article class="categorie">
         <img src="/assets/img/categorie/sandwich_cat.png" alt="">
-        <div class="test1">
+        <div class="div-text-categorie">
         <a class="link-categ" href="/html/categorie/pages_categorie_sandwich/categorie_sandwich.php">
           <h1 class="menu-categorie-title">Sandwich : </h1>
         </a>

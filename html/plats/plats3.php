@@ -25,21 +25,22 @@
         <div class="div-menu-mobile" style="overflow: hidden; display: none"></div>
       </header> -->
 
-      <?php include('../header_footer/header.php') ?>
+      <?php include('../../header_footer/header.php') ?>
 
 
   <div class="div-body">
-    <div class="div-banniere">
-      <input type="search" id="searchBar" placeholder="Recherche..." />
-    </div>
+        <div class="div-banniere">
+        <input type="search" id="searchBar" placeholder="Recherche..." />
+        </div>
 
-    <h1 class="categorie-title">Nos plats</h1>
+        <h1 class="categorie-title">Nos plats</h1>
 
-    <div class="all-categories">
-    <article class="categorie" >
-            <img src="/assets/img/plats/plat-burger/burger_boltneva.png" alt="">
+        <div class="all-categories">
+
+          <article class="categorie" >
+            <img src="/assets/img/plats/plat-pizza/pizza_desativado.png" alt="">
             <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/boltneva.php">Boltneva : </a></h1>
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_pizza/pages_plats_pizza/desativado.php">Desativado : </a></h1>
               <p class="categorie-text">
                 À <span class="text-deco">The District</span>, notre équipe de chefs talentueux prépare minutieusement chaque ingrédient avant de les enrober d'une pâte à tempura légère et croustillante. Vous serez émerveillés par la fraîcheur et la qualité des légumes de saison ainsi que des fruits de mer sélectionnés avec soin pour ce plat unique.
               </p>
@@ -49,9 +50,23 @@
           </article>
 
           <article class="categorie">
-            <img src="/assets/img/plats/plat-burger/burger_caricatte.png" alt="">
+            <img src="/assets/img/plats/plat-pizza/pizza_kristina.png" alt="">
             <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/caricatte.php">Caricatte : </a></h1>
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_pizza/pages_plats_pizza/kristina.php">Kristina : </a></h1>
+              <p class="categorie-text">
+                La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
+                propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
+                riz et le mode de cuisson, elles ont chacune leur spécificité locale. 
+              </p>
+              <button id="addProduct">ajouter au panier</button>
+              <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
+            </div>
+          </article>
+
+          <article class="categorie">
+            <img src="/assets/img/plats/plat-pizza/pizza_valeria.png" alt="">
+            <div class="div-text-categorie">
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_pizza/pages_plats_pizza/valeria.php">Valeria : </a></h1>
               <p class="categorie-text">
                 La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
@@ -63,23 +78,9 @@
           </article>
 
           <article class="categorie">
-            <img src="/assets/img/plats/plat-burger/burger_husko.png" alt="">
+            <img src="/assets/img/plats/plat-pizza/pizza_federica.png" alt="">
             <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/husko.php">Husko : </a></h1>
-              <p class="categorie-text">
-                La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
-                propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
-                riz et le mode de cuisson, elles ont chacune leur spécificité locale.
-              </p>
-              <button id="addProduct">ajouter au panier</button>
-              <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
-            </div>
-          </article>
-
-          <article class="categorie">
-            <img src="/assets/img/plats/plat-burger/burger_korba.png" alt="">
-            <div class="div-text-categorie">
-              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_burger/pages_plat_burger/korba.php">Korba : </a></h1>
+              <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categorie_pizza/pages_plats_pizza/federica.php">Federica : </a></h1>
               <p class="categorie-text">
                 La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
@@ -90,21 +91,18 @@
             </div>
           </article>
       </div>
+      <div class="div-btn">
+      <button class="btn-categorie"><a href="/html/plats/plats2.php">Précédent</a></button>
+      <button class="btn-categorie"><a href="/html/plats/plats4.php">Suivant</a></button>
     </div>
-    <div class="div-btn">
-      <button id="btnPrec" class="btn-categorie" >Précédent</button>
-      <button id="btnNext" class="btn-categorie" >Suivant</button>
-    </div>
+
+
+      <?php include('../../header_footer/footer.php') ?>
+
+    
   </div>
 
-  <!-- <?php include "../footer.html" ?> -->
-  <footer class="social-media">
-    <div class="facebook"><img class="social-logo" src="/assets/img/social/facebook.png" alt=""></div>
-    <div class="insta"><img class="social-logo" src="/assets/img/social/instagram.png" alt=""></div>
-    <div class="linkedin"><img class="social-logo" src="/assets/img/social/linkedin.png" alt=""></div>
-    <div class="pinterest"><img class="social-logo" src="/assets/img/social/pinterest.png" alt=""></div>
-  </footer>
-  <script src="/assets/script/script.js"></script>
+
 </body>
 
 </html>

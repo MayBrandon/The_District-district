@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Categorie - Asiatique</title>
-  <link rel="stylesheet" href="/assets/css/categorie_css/categorie-plat.css" />
+  <title>The District | Nos plats</title>
+  <link rel="stylesheet" href="/assets/css/categorie_css/main_categorie.css" />
   <link rel="icon" type="image/png" href="/assets/img/branding/favicon.png" />
 </head>
-    <body> 
 
-    <?php include('../../../header_footer/header.php') ?>
+<body>
+  <!-- <header class="navbar">
+        <div class="div-logo">
+          <img class="logo" src="/assets/img/branding/logo_transparent.png" alt="" />
+        </div>
+        <nav class="nav-menu">
+          <a class="nav-a" href="/html/index.html">Accueil</a>
+          <a class="nav-a" href="/html/categorie.html">Catégories</a>
+          <a class="nav-a" href="/html/plats.html">Plats</a>
+          <a class="nav-a" href="/html/contact.html">Contact</a>
+        </nav>
+    
+        <-- MENU DÉROULANT POUR MOBILE 
+        <div class="div-menu-mobile" style="overflow: hidden; display: none"></div>
+      </header> -->
 
+      <?php include('../../header_footer/header.php') ?>
+
+
+  <div class="div-body">
         <div class="div-banniere">
-          <video  autoplay loop id="video">
-            <source src="/assets/video/video-asian-food.mp4" type="">
-          </video>
+        <input type="search" id="searchBar" placeholder="Recherche..." />
         </div>
 
-        <h1 class="categorie-title">Nos plats - Asiatique</h1>
+        <h1 class="categorie-title">Nos plats</h1>
 
         <div class="all-categories">
-            <article class="categorie" >
+        <article class="categorie" >
               <img src="/assets/img/plats/plats-asie/pexels-jonathan-borba-3622477.png" alt="">
               <div class="div-text-categorie">
                 <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categories_asie/pages_plats_asie/tempura.php">Tempura : </a></h1>
@@ -73,17 +89,21 @@
                 <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
               </div>
             </article>
-        </div>
-          <div class="div-btn">
-            <button class="btn-categorie">Précédent</button>
-            <button class="btn-categorie">Suivant</button>
-          </div>
 
-        <footer class="social-media">
-            <div class="facebook"><img class="social-logo" src="/assets/img/social/facebook.png" alt=""></div>
-            <div class="insta"><img class="social-logo" src="/assets/img/social/instagram.png" alt=""></div>
-            <div class="linkedin"><img class="social-logo" src="/assets/img/social/linkedin.png" alt=""></div>
-            <div class="pinterest"><img class="social-logo" src="/assets/img/social/pinterest.png" alt=""></div>
-        </footer>
-    </body>
+        </div>
+    </div>
+    <div class="div-btn">
+      <button class="btn-categorie"><a href="/html/plats/plats5.php">Précédent</a></button>
+    </div>
+  </div>
+
+  <!-- <?php include "../footer.html" ?> -->
+  <footer class="social-media">
+    <div class="facebook"><img class="social-logo" src="/assets/img/social/facebook.png" alt=""></div>
+    <div class="insta"><img class="social-logo" src="/assets/img/social/instagram.png" alt=""></div>
+    <div class="linkedin"><img class="social-logo" src="/assets/img/social/linkedin.png" alt=""></div>
+    <div class="pinterest"><img class="social-logo" src="/assets/img/social/pinterest.png" alt=""></div>
+  </footer>
+</body>
+
 </html>

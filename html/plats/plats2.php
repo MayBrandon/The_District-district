@@ -25,7 +25,7 @@
         <div class="div-menu-mobile" style="overflow: hidden; display: none"></div>
       </header> -->
 
-      <?php include('../header_footer/header.php') ?>
+      <?php include('../../header_footer/header.php') ?>
 
 
   <div class="div-body">
@@ -92,8 +92,8 @@
         </div>
     </div>
     <div class="div-btn">
-      <button class="btn-categorie">Précédent</button>
-      <button class="btn-categorie">Suivant</button>
+      <button class="btn-categorie"><a href="/html/plats/plats.php">Précédent</a></button>
+      <button class="btn-categorie"><a href="/html/plats/plats3.php">Suivant</a></button>
     </div>
   </div>
 

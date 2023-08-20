@@ -7,7 +7,7 @@
     <nav class="nav-menu">
         <a class="nav-a" href="/html/index.php">Accueil</a>
         <a class="nav-a" href="/html/categorie.php">Catégories</a>
-        <a class="nav-a" href="/html/plats.php">Plats</a>
+        <a class="nav-a" href="/html/plats/plats.php">Plats</a>
         <a class="nav-a" href="/html/contact.php">Contact</a>
     </nav>
 
