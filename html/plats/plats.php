@@ -43,7 +43,7 @@
               <p class="categorie-text">
                 À <span class="text-deco">The District</span>, notre équipe de chefs talentueux prépare minutieusement chaque ingrédient avant de les enrober d'une pâte à tempura légère et croustillante. Vous serez émerveillés par la fraîcheur et la qualité des légumes de saison ainsi que des fruits de mer sélectionnés avec soin pour ce plat unique.
               </p>
-              <button id="addProduct">ajouter au panier</button>
+              <button id="addProduct" onclick="addProduct(1)">ajouter au panier</button>
               <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
             </div> 
           </article>
@@ -57,7 +57,7 @@
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
                 riz et le mode de cuisson, elles ont chacune leur spécificité locale.
               </p>
-              <button id="addProduct">ajouter au panier</button>
+              <button id="addProduct"  onclick="addProduct(2)">ajouter au panier</button>
               <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
             </div>
           </article>
@@ -71,7 +71,7 @@
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
                 riz et le mode de cuisson, elles ont chacune leur spécificité locale.
               </p>
-              <button id="addProduct">ajouter au panier</button>
+              <button id="addProduct"  onclick="addProduct(3)">ajouter au panier</button>
               <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
             </div>
           </article>
@@ -85,7 +85,7 @@
                 propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le
                 riz et le mode de cuisson, elles ont chacune leur spécificité locale.
               </p>
-              <button id="addProduct">ajouter au panier</button>
+              <button id="addProduct"  onclick="addProduct(4)">ajouter au panier</button>
               <!-- BOUTON A CONFIGURER EN JS OU PHP POUR LE PANIER SUREMENT EN PHP A VERIFIER -->
             </div>
           </article>
@@ -97,13 +97,13 @@
   </div>
 
   <!-- <?php include "../footer.html" ?> -->
-  <footer class="social-media">
+  <!-- <footer class="social-media">
     <div class="facebook"><img class="social-logo" src="/assets/img/social/facebook.png" alt=""></div>
     <div class="insta"><img class="social-logo" src="/assets/img/social/instagram.png" alt=""></div>
     <div class="linkedin"><img class="social-logo" src="/assets/img/social/linkedin.png" alt=""></div>
     <div class="pinterest"><img class="social-logo" src="/assets/img/social/pinterest.png" alt=""></div>
-  </footer>
-  <script src="/assets/script/script.js"></script>
+  </footer> -->
+  <script src="/assets/script/plats.js"></script>
 </body>
 
 </html>

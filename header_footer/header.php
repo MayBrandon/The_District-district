@@ -9,6 +9,7 @@
         <a class="nav-a" href="/html/categorie.php">Catégories</a>
         <a class="nav-a" href="/html/plats/plats.php">Plats</a>
         <a class="nav-a" href="/html/contact.php">Contact</a>
+        <a class="nav-a" href="/html/panier.php">Panier</a>
     </nav>
 
     <!-- MENU DÉROULANT POUR MOBILE -->

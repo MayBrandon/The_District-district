@@ -79,7 +79,7 @@
             <article class="categorie">
               <img src="/assets/img/plats/plats-asie/misoSoupe.png" alt="">
               <div class="div-text-categorie">
-                <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categories_asie/pages_plats_asie/miso.php">Soupe miso: </a></h1>
+                <h1 class="menu-categorie-title"><a href="/html/categorie/pages_categories_asie/pages_plats_asie/miso.php">Soupe miso</a></h1>
                 <p class="categorie-text">
                   La <b>cuisine asiatique</b> regroupe l'ensemble des styles gastronomiques des pays de d'Asie avec leur
                   propres spécificités. Issu d'une identité commune, notamment par l'utilisation d'aliments de base comme le

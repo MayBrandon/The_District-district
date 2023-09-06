@@ -31,7 +31,7 @@
             <li class="ingredient">regarde sur le net</li>
           </ul>
       </p>
-    
+        
         <button id="addProduct">Ajouter au panier</button>
       </div>
     </div>
