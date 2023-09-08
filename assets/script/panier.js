@@ -46,6 +46,8 @@ function resetPanier() {
 
       li.appendChild(div);
       panierListe.appendChild(li);
+
+      console.log('ajouter au panier');
     });
 
     // Afficher le prix total
