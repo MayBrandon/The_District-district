@@ -20,8 +20,7 @@
       <h1 class="title-categorie">Catégories les plus visitées</h1>
 
       <div class="div-parent">
- 
-          <!-- CATEGORIE ASIAN -->
+         <!-- CATEGORIE ASIAN -->
         <div class="div-enfant1">
           <a href="/html/categorie/pages_categories_asie/categorie_asia.php">
             <img src="/assets/img/categorie/asian_food_cat.png" alt="">
