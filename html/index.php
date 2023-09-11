@@ -10,7 +10,7 @@
 
 <body>
 
-  <?php include('../header_footer/header.php') ?>
+  <?php include('../header_footer/header.php')  ?>
 
   <div class="div-body">
     <div class="div-banniere">
